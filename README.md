@@ -1,5 +1,7 @@
 # Kafka Order Reliability Lab
 
+[![CI](https://github.com/ppdssdev/spring-kafka-resiliency-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ppdssdev/spring-kafka-resiliency-lab/actions/workflows/ci.yml)
+
 A compact Java 21 / Spring Boot engineering portfolio project about **distributed messaging reliability**. An order API feeds a PostgreSQL transactional outbox, Kafka, and an idempotent order processor. Business processing records a fulfillment decision by moving an order from `PENDING` to `PROCESSED`; there are no external payments or shipping calls.
 
 ## Run locally
