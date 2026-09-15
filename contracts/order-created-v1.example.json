@@ -1,0 +1,13 @@
+{
+  "eventId": "40af0c94-61ce-47f1-b2f9-ad279835cba5",
+  "eventType": "OrderCreated",
+  "schemaVersion": 1,
+  "occurredAt": "2026-09-14T12:00:00Z",
+  "correlationId": "portfolio-demo-1",
+  "orderId": "ddf4d373-5f60-4ffa-a7dc-c053ec38249f",
+  "payload": {
+    "customerReference": "customer-42",
+    "amount": 49.90,
+    "currency": "USD"
+  }
+}

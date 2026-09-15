@@ -1,0 +1,8 @@
+lab:
+  demo-enabled: true
+  outbox:
+    poll-ms: 100
+logging:
+  level:
+    org.apache.kafka: WARN
+    org.springframework.kafka.listener.DefaultErrorHandler: OFF
